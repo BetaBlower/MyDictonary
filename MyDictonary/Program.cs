@@ -14,15 +14,21 @@ namespace MyDictonary
             meyveler.Add("şeftali");
             meyveler.Add("elma");
 
-            Console.WriteLine(meyveler);
+            foreach (var meyve in meyveler)
+            {
+                Console.WriteLine(meyve);
+            }
 
-            MyDictionary<int> sayılar = new MyDictionary<int>();
-            sayılar.Add(1);
-            sayılar.Add(100);
-            sayılar.Add(73);
-            sayılar.Add(82);
+            MyDictionary<int> sayilar = new MyDictionary<int>();
+            sayilar.Add(1);
+            sayilar.Add(100);
+            sayilar.Add(73);
+            sayilar.Add(82);
 
-            Console.WriteLine(sayılar);
+            foreach (var sayi in sayilar)
+            {
+                Console.WriteLine(sayi);
+            }
             /*
             MyDictionary<int,Sehirler> sehirler = new MyDictionary<Sehirler>();
             sehirler.Add(10);
